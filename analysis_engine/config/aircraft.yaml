@@ -7,3 +7,30 @@ G-FDSL:
   Model: B737-301
   Precise Positioning: false
   Series: B737-300
+D-AGEJ:
+  Engine Series: PW4000-94
+  Family: B737
+  Frame: 737-5
+  Frame Qualifier: Altitude_Radio_EFIS
+  Manufacturer: Boeing
+  Model: B737-301
+  Precise Positioning: false
+  Series: B737-300
+HB-JSZ: 
+  Engine Series: PW307A
+  Family: Falcon
+  Frame: Falcon7X
+  Manufacturer: Dassault
+  Model: FA7X
+  Zero Fuel Weight: 38255
+  Precise Positioning: true
+  Series: Falcon 7X
+A-101:
+  Engine Series: PT6A
+  Family: PC21
+  Frame: PC-21
+  Frame Qualifier: Altitude_Radio
+  Manufacturer: Boeing
+  Model: PC21-103
+  Precise Positioning: false
+  Series: PC21  
