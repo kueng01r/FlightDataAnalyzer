@@ -6433,7 +6433,7 @@ class VMOLookup(DerivedParameterNode):
     def can_operate(cls, available, model=A('Model'), series=A('Series'), family=A('Family')):
 
         if not all_of(('Altitude STD', 'Model', 'Series', 'Family'), available):
-            False
+            return False
 
         try:
             at.get_max_speed_table(model.value, series.value, family.value)
@@ -6463,7 +6463,7 @@ class MMOLookup(DerivedParameterNode):
     def can_operate(cls, available, model=A('Model'), series=A('Series'), family=A('Family')):
 
         if not all_of(('Altitude STD', 'Model', 'Series', 'Family'), available):
-            False
+            return False
 
         try:
             at.get_max_speed_table(model.value, series.value, family.value)
